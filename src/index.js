@@ -4,15 +4,20 @@ import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import { BrowserRouter as Router } from "react-router-dom";
+
 import { Amplify } from 'aws-amplify';
 import config from './aws-exports';
 Amplify.configure(config);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <Router>
+
+<React.StrictMode>
     <App />
   </React.StrictMode>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
