@@ -3,8 +3,8 @@ import "./skills.scss";
 
 function Skills() {
     return (
-        <div className="content-box">
-            <h3>Skills</h3>
+        <div className="child-div">
+            <h2>Skills</h2>
         </div>
     );
 }

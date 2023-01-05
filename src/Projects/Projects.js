@@ -4,9 +4,11 @@ import "./projects.scss";
 
 function Projects() {
     return(
-        <div className="content-box">
-            <h3>Projects</h3>
-            <Link className="nav-style" to="/notes" target="_blank"> Notes </Link>
+        <div className="child-div">
+            <h2>Projects</h2>
+            {/*<ul>
+                <li><Link className="nav-style" to="/notes" target="_blank"> Notes </Link></li>
+    </ul>*/}
         </div>
     );
 }

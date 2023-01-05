@@ -2,8 +2,8 @@ import "./App.scss";
 
 import React from "react";
 import {Routes, Route} from "react-router-dom";
-import Notes from "./Notes";
 import Home from "./Home";
+import Notes from "./Notes";
 
 
 function App() {

@@ -6,12 +6,14 @@ import Projects from "./Projects/Projects";
 function Home() {
     return(
         <div>
-            <header className="App App-header">
+            <header className="App-header">
                 <h1>Alyssa Padayhag</h1>
             </header>
+        <div id="main-div">
             <AboutMe />
             <Skills />
             <Projects />
+        </div>
         </div>
     );
 }

@@ -1,14 +1,13 @@
-$primary_background: rgb(178, 178, 178);
-
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: $primary_background;
+	background: linear-gradient(-90deg, #fad0c9ff, #545B65, #fad0c9ff, #545B65);
+	background-size: 400% 400%;
+	height: 100vh;
 }
 
 code {
