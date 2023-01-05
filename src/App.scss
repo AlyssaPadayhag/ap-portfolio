@@ -66,3 +66,19 @@ ul {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: $primary_border;
 }
+
+@media all and (max-width: 1100px) {
+  .App-header {
+    width: 100%;
+  }
+
+  #main-div {
+	display : flex;
+  flex-direction: column;
+  }
+  .child-div {
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: center;
+  }
+}
