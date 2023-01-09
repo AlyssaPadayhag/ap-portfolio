@@ -9,7 +9,7 @@ function AboutMe() {
             <h3 className="avail">I am #OpenToWork!</h3>
             <p>
                 Hello! I am a full stack web developer with 3+ years of collective web dev experience.
-                I am also a recent grad from <a href="https://www.thinkful.com/bootcamp/web-development/">Thinkful's</a> intensive software engineering flex program.
+                I am also a recent grad from <a href="https://www.thinkful.com/bootcamp/web-development/" target="_blank">Thinkful's</a> intensive software engineering flex program.
             </p>
         </div>
     );
