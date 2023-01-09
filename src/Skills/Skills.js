@@ -9,8 +9,7 @@ function Skills() {
                 <li>HTML, CSS, flexbox, Bootstrap, SASS/SCSS</li>
                 <li>JavaScript, Node, React</li>
                 <li>Express, PostgreSQL, ElephantSQL, GraphQL, S3 </li>
-                <li>AWS: Amplify, DynamoDB, S3</li>
-                <li>Heroku, Vercel, Render</li>
+                <li>AWS, Heroku, Vercel, Render</li>
                 <li>Git, GitHub, Git BASH</li>
                 <li>Mocha and Chai, Jest, Postman</li>
                 <li>Data Structures and Algorithms</li>
