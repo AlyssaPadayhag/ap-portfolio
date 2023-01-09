@@ -81,4 +81,24 @@ ul {
   margin-bottom: 10px;
   justify-content: center;
   }
+
+  .user {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    
+    border: 3px;
+    border-color: $primary_border;
+    border-style: solid;
+    border-radius: 50px;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .one {
+    background-image: url("./images/me.JPG");
+  }
+  
 }
