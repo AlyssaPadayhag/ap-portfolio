@@ -15,8 +15,17 @@ h2 {
   text-align: center;
 }
 
-p {
+h1 {
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  font-size: 0.7em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 i {
@@ -34,6 +43,15 @@ a {
   -webkit-text-stroke-color:#4ca4f7;
 }
 
+
+ul {
+  list-style: disc;
+
+  li {
+      text-align: left;
+  }
+}
+
 .App-header {
   background-image: url("./images/bg.jpg");
   background-repeat: no-repeat;
@@ -43,6 +61,7 @@ a {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   
   font-size: calc(10px + 2vmin);
   color: $primary_text;
@@ -64,9 +83,8 @@ a {
   flex-direction: row;
 	justify-content : space-between;
   color: $primary_text;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: $primary_border;
 }
+
 
 .avail {
   color: #68ff62;
@@ -74,7 +92,7 @@ a {
   -webkit-text-stroke-color: #000;
 }
 
-.child-div {
+.about-skills {
     text-align : center;
     border : 1px solid black;
     width: 30%;
@@ -82,15 +100,30 @@ a {
     border-color: $primary_border;
     border-style: double;
     border-radius: 20px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: $primary_border;
 }
 
-ul {
-  list-style: none;
+.projects {
+    h2 {
+      
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: $primary_border;
+    }
+  text-align : center;
+  border : 1px solid black;
+  width: 30%;
+  border: 10px;
+  border-color: $primary_border;
+  border-style: double;
+  border-radius: 20px;
+  overflow: auto;
 }
 
-.nav-style {
+.link-style {
+  font-size: .7em;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: $primary_border;
 }
@@ -114,6 +147,56 @@ ul {
   background-image: url("./images/me.JPG");
 }
 
+table {
+  width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+  a {
+    
+  font-size: .7em;
+  }
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+thead {
+	th {
+		background-color: #000;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+    color: #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $primary_border;
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+
+
 @media all and (max-width: 1100px) {
   .App-header {
     width: 100%;
@@ -123,7 +206,7 @@ ul {
 	display : flex;
   flex-direction: column;
   }
-  .child-div {
+  .about-skills, .projects {
   width: 100%;
   margin-bottom: 10px;
   justify-content: center;
