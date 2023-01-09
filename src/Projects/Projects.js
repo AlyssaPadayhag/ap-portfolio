@@ -22,16 +22,6 @@ function Projects() {
                             <td><a href="https://github.com/AlyssaPadayhag/ap-portfolio/blob/main/src/Notes.js"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
                         </tr>
                         <tr>
-                            <td>Simple Landing Page</td>
-                            <td><a href="https://ap-drinks-landing-page.onrender.com/"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
-                            <td><a href="https://github.com/AlyssaPadayhag/ap-drinks-landing-page"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
-                        </tr>
-                        <tr>
-                            <td>Responsive Flexbox Design</td>
-                            <td><a href="https://ap-responsive-flexbox.onrender.com/"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
-                            <td><a href="https://github.com/AlyssaPadayhag/ap-responsive-flexbox"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
-                        </tr>
-                        <tr>
                             <td>Restaurant Resrevation</td>
                             <td><a href="https://ap-restaurant-reservation-frontend.onrender.com/dashboard"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
                             <td><a href="https://github.com/AlyssaPadayhag/ap-restaurant-reservation"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
@@ -45,6 +35,16 @@ function Projects() {
                             <td>GrubDash</td>
                             <td></td>
                             <td><a href="https://github.com/AlyssaPadayhag/ap-grubdash"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
+                        </tr>
+                        <tr>
+                            <td>Simple Landing Page</td>
+                            <td><a href="https://ap-drinks-landing-page.onrender.com/"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
+                            <td><a href="https://github.com/AlyssaPadayhag/ap-drinks-landing-page"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
+                        </tr>
+                        <tr>
+                            <td>Responsive Flexbox Design</td>
+                            <td><a href="https://ap-responsive-flexbox.onrender.com/"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
+                            <td><a href="https://github.com/AlyssaPadayhag/ap-responsive-flexbox"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
                         </tr>
                     </tbody>
                 </table>
