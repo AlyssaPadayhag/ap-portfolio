@@ -3,7 +3,7 @@ import "./aboutme.scss";
 
 function AboutMe() {
     return (
-        <div className="child-div">
+        <div className="about-skills">
             <h2>About Me</h2>
             <div className="user one"></div>
             <h3 className="avail">I am #OpenToWork!</h3>
