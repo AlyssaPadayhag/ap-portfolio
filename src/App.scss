@@ -9,10 +9,29 @@
 
 
 $primary_text: #fff;
-$primary_border: #333D79FF;
+$primary_border: #000;
 
 h2 {
   text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+i {
+  display: flex;
+  margin: 20px;
+  font-size: 2em;
+  color: #fff;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #4ca4f7;
+}
+
+a {
+  text-decoration-color: #4ca4f7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:#4ca4f7;
 }
 
 .App-header {
@@ -38,7 +57,7 @@ h2 {
   -webkit-text-stroke-color: $primary_border;
 }
 
-#main-div {
+.main-div {
   margin: 10px;
   padding: 10px;
 	display : flex;
@@ -49,10 +68,10 @@ h2 {
   -webkit-text-stroke-color: $primary_border;
 }
 
-#avail {
+.avail {
   color: #68ff62;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #87c384;
+  -webkit-text-stroke-color: #000;
 }
 
 .child-div {
@@ -76,12 +95,31 @@ ul {
   -webkit-text-stroke-color: $primary_border;
 }
 
+.user {
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  
+  border: 3px;
+  border-color: $primary_border;
+  border-style: solid;
+  border-radius: 50px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url("./images/me.JPG");
+}
+
 @media all and (max-width: 1100px) {
   .App-header {
     width: 100%;
   }
 
-  #main-div {
+  .main-div {
 	display : flex;
   flex-direction: column;
   }
