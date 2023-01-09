@@ -8,7 +8,7 @@ function Home() {
         <div>
             <header className="App-header">
                 <h1>Alyssa Padayhag</h1>
-            <p>
+            <p className="social-icon-border">
                 <a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank" className="hvr-pulse-shrink"><i className="fa-brands fa-linkedin-in hvr-icon"></i></a>
                 <a href="https://github.com/AlyssaPadayhag" target="_blank" className="hvr-pulse-shrink"><i className="fa-brands fa-github hvr-icon"></i></a>
                 <a href="./files/resume-alyssa-padayhag-2023.pdf" download className="hvr-pulse-shrink"><i className="fa-regular fa-file-pdf hvr-icon"></i></a>
