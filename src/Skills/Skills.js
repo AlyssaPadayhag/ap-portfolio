@@ -15,7 +15,7 @@ function Skills() {
                 <li>Postman</li>
                 <li>Data Structures and Algorithms</li>
                 <li>E-commerce: X-Cart, BigCommerce, Volusion, Shopify, Amazon Seller</li>
-                <li>Advertising</li>
+                <li>Amazon Seller Advertising</li>
             </ul>
         </div>
     );
