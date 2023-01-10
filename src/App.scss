@@ -11,7 +11,7 @@
 $primary_text: #fff;
 $primary_border: #000;
 $secondary_color: #3aff33;
-$icon_link: #9eecff;
+$icon_link: #a4fffc;
 
 h2 {
   text-align: center;
@@ -40,11 +40,11 @@ i {
 
 a {
   color: $icon_link;
-  text-decoration-color: $icon_link;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color:#000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  position: relative;
+  bottom: 5px;
 }
-
 
 ul {
   list-style: disc;
