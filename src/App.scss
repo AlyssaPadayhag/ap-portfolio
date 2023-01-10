@@ -10,6 +10,8 @@
 
 $primary_text: #fff;
 $primary_border: #000;
+$secondary_color: #3aff33;
+$icon_link: #9eecff;
 
 h2 {
   text-align: center;
@@ -31,16 +33,16 @@ i {
   display: flex;
   margin: 20px;
   font-size: 2em;
-  color: #fff;
+  color: $icon_link;
   -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #4ca4f7;
-  --fa-animation-duration: 2s;
+  -webkit-text-stroke-color: #000;
 }
 
 a {
-  text-decoration-color: #4ca4f7;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:#4ca4f7;
+  color: $icon_link;
+  text-decoration-color: $icon_link;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color:#000;
 }
 
 
@@ -64,10 +66,10 @@ ul {
   margin-right: auto;
   
   font-size: calc(10px + 2vmin);
-  color: $primary_text;
+  color: $secondary_color;
 
   border: 10px;
-  border-color: $primary_border;
+  border-color: $secondary_color;
   border-style: double;
   border-radius: 500px;
   width: 50%;
@@ -86,12 +88,13 @@ ul {
 }
 
 .avail {
-  color: #68ff62;
+  color: $secondary_color;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
 }
 
 .about-skills {
+    color: $secondary_color;
     text-align : center;
     padding: 10px;
     border : 1px solid black;
@@ -110,6 +113,7 @@ ul {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: $primary_border;
     }
+  color: $secondary_color;
   text-align : center;
   border : 1px solid black;
   width: 30%;
