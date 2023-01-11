@@ -36,7 +36,7 @@ header p {
 
 i {
   display: flex;
-  margin: 20px;
+  margin: 20px 30px 0 0;
   font-size: 2em;
   color: $icon_link;
   -webkit-text-stroke-width: 1.5px;
@@ -48,6 +48,13 @@ a {
   color: #000;
   position: relative;
   bottom: 5px;
+}
+
+p {
+  a {
+  -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color: $primary_border;
+  }
 }
 
 ul {
@@ -75,6 +82,10 @@ ul {
   border-style: double;
   border-radius: 500px;
   width: 50%;
+}
+
+.resume {
+  top: 5px;
 }
 
 .main-div {
@@ -170,7 +181,6 @@ table {
 th,
 td {
   a {
-    
   font-size: .7em;
   }
   p {

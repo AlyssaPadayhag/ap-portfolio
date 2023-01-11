@@ -14,7 +14,7 @@ function Home() {
             <p>
                 <a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank" className="hvr-pulse-shrink"><i className="fa-brands fa-linkedin-in hvr-icon"></i></a>
                 <a href="https://github.com/AlyssaPadayhag" target="_blank" className="hvr-pulse-shrink"><i className="fa-brands fa-github hvr-icon"></i></a>
-                <a href={pdf} target="_blank" className="hvr-pulse-shrink"><i className="fa-regular fa-file-pdf hvr-icon"></i></a>
+                <a href={pdf} target="_blank" className="resume hvr-pulse-shrink">Resume</a>
             </p>
             </header>
         <div className="main-div">
