@@ -87,9 +87,9 @@ ul {
 }
 
 .avail {
-  color: $secondary_color;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #3aff33;
 }
 
 .about-skills {
