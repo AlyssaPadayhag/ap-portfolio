@@ -19,7 +19,12 @@ h2 {
 
 h1 {
   text-align: center;
-  margin: 15px;
+  margin: 0;
+  padding: 0;
+  
+
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: $primary_border;
 }
 
 header p {
@@ -70,9 +75,6 @@ ul {
   border-style: double;
   border-radius: 500px;
   width: 50%;
-
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: $primary_border;
 }
 
 .main-div {
@@ -141,8 +143,8 @@ ul {
 
 .user {
   display: inline-block;
-  width: 100px;
-  height: 150px;
+  width: 150px;
+  height: 200px;
   
   border: 3px;
   border-color: $primary_border;
