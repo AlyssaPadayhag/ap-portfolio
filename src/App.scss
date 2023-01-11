@@ -39,9 +39,8 @@ i {
 }
 
 a {
-  color: $icon_link;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
+  text-decoration-color: $icon_link;
+  color: #000;
   position: relative;
   bottom: 5px;
 }
@@ -94,7 +93,13 @@ ul {
 }
 
 .about-skills {
-    color: $secondary_color;
+    h2 {
+      
+    color: $secondary_color; 
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: $primary_border;
+    }
+    color: #000;
     text-align : center;
     padding: 10px;
     border : 1px solid black;
@@ -103,7 +108,7 @@ ul {
     border-color: $primary_border;
     border-style: double;
     border-radius: 20px;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-width: .7px;
   -webkit-text-stroke-color: $primary_border;
     background-color: rgba(197, 197, 197, .7);
 }
