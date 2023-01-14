@@ -22,7 +22,7 @@ function Projects() {
                                 Restaurant Reservation
                                 <p>Full-stack, CRUD, React, Express, PostGreSQL App</p>
                             </td>
-                            <td><a href="https://ap-restaurant-reservation-frontend.onrender.com/dashboard" className="hvr-pulse-shrink"> <i class="fa-solid fa-arrow-up-right-from-square hvr-icon"></i> </a> </td>
+                            <td><a href="https://ap-restaurant-reservation-frontend.onrender.com/" className="hvr-pulse-shrink"> <i class="fa-solid fa-arrow-up-right-from-square hvr-icon"></i> </a> </td>
                             <td><a href="https://github.com/AlyssaPadayhag/ap-restaurant-reservation" className="hvr-pulse-shrink"> <i class="fa-solid fa-arrow-up-right-from-square hvr-icon"></i> </a> </td>
                         </tr>
                         <tr>
