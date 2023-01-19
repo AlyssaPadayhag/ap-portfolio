@@ -2,7 +2,7 @@ import React from "react";
 import AboutMe from "./AboutMe/AboutMe";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
-import pdf from "./files/resume-alyssa-padayhag-2023.pdf";
+import pdf from "./files/alyssa_padayhag_resume.pdf";
 
 function Home() {
     return(
