@@ -16,7 +16,14 @@ function Projects() {
                         </tr>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td>
+                                Thinkful Hackathon - Job Search App
+                                <p>Front-end, React, MUI, Bootstrap, Figma</p>
+                            </td>
+                            <td><a href="https://thinkful-hackathon.onrender.com/" className="hvr-pulse-shrink" target="blank"> <i class="fa-solid fa-arrow-up-right-from-square hvr-icon"></i> </a> </td>
+                            <td><a href="https://github.com/japyles/thinkful-hackathon" className="hvr-pulse-shrink" target="blank"> <i class="fa-solid fa-arrow-up-right-from-square hvr-icon"></i> </a> </td>
+                        </tr>
                         <tr>
                             <td>
                                 Restaurant Reservation
