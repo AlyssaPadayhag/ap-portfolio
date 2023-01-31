@@ -4,7 +4,7 @@ import "./skills.scss";
 function Skills() {
     return (
         <div className="about-skills">
-            <h2>Skills</h2>
+            {/* <h2>Skills</h2> */}
             <ul>
                 <li>HTML, CSS, flexbox, Bootstrap, SASS/SCSS</li>
                 <li>JavaScript, Node, React</li>
