@@ -128,14 +128,9 @@ ul {
 }
 
 .projects {
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-    h2 {
-      
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: $primary_border;
-    }
   color: $secondary_color;
   text-align : center;
   border : 3px solid black;
@@ -196,7 +191,8 @@ td {
 
 thead {
 	th {
-		background-color: #000;
+    color: #000;
+		background-color: rgba(202, 202, 202, 0.7);
 	}
 }
 
@@ -207,9 +203,11 @@ tbody {
 		}
 	}
 	td {
+    width: 50%;
+    padding: 10px;
     color: #000;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: $primary_border;
+    border: rgba(202, 202, 202, 0.7);
+    border-style: solid;
 		position: relative;
 		&:hover {
 			&:before {
