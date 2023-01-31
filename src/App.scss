@@ -11,7 +11,7 @@
 $primary_text: #fff;
 $primary_border: #000;
 $secondary_color: #d7edad;
-$icon_link: #a4fffc;
+$icon_link: rgb(173, 255, 156);
 
 h2 {
   text-align: center;
@@ -62,26 +62,21 @@ ul {
   color: #000;
 
   li {
-      text-align: left;
+      text-align: center;
+      list-style: none;
   }
 }
 
-.App-header {
-  background-color: rgba(197, 197, 197, .7);
+.flex-display {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  
+  justify-content: center;
+  padding: 30px;
+}
+
+.App-header {
+  background-color: rgba(230, 230, 230, 0.7);
   font-size: calc(10px + 2vmin);
   color: $secondary_color;
-
-  border: 10px;
-  border-color: $primary_border;
-  border-style: double;
-  border-radius: 500px;
-  width: 50%;
 }
 
 .resume {
@@ -100,13 +95,14 @@ ul {
 
 .avail {
   color: #000;
-  text-decoration: underline;
-  text-decoration-color: $secondary_color;
   margin: 0;
   padding: 0;
 }
 
 .about-skills {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
     h2 {
       
     color: $secondary_color; 
@@ -116,18 +112,25 @@ ul {
     color: #000;
     text-align : center;
     padding: 10px;
-    border : 1px solid black;
-    width: 30%;
-    border: 10px;
+    border: 3px;
     border-color: $primary_border;
-    border-style: double;
+    border-style: solid;
     border-radius: 20px;
-  -webkit-text-stroke-width: .7px;
-  -webkit-text-stroke-color: $primary_border;
-    background-color: rgba(197, 197, 197, .7);
+    background-color: rgba(230, 230, 230, 0.7);
+}
+
+.about-face {
+  display: flex;
+  width: 70%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .projects {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
     h2 {
       
   -webkit-text-stroke-width: 1.5px;
@@ -135,11 +138,8 @@ ul {
     }
   color: $secondary_color;
   text-align : center;
-  border : 1px solid black;
-  width: 30%;
-  border: 10px;
+  border : 3px solid black;
   border-color: $primary_border;
-  border-style: double;
   border-radius: 20px;
   overflow: auto;
   background-color: rgba(197, 197, 197, .7);
@@ -157,6 +157,7 @@ ul {
   display: inline-block;
   width: 150px;
   height: 200px;
+  margin-right: 20px;
   
   border: 3px;
   border-color: $primary_border;
