@@ -19,18 +19,6 @@ function Projects() {
                     <tbody>
                         <tr>
                             <td>
-                                Thinkful Hackathon - Job Search App
-                                <p>Front-end, React, MUI, Bootstrap, Figma</p>
-                            </td>
-                            <td>
-                                Worked with 2 designers and 2 other engineers and mimic a real world project.
-                                Prompt: to create a job search tool or app in 1 week
-                            </td>
-                            <td><a href="https://thinkful-hackathon-team-8.onrender.com/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
-                            <td><a href="https://github.com/japyles/thinkful-hackathon"  target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
-                        </tr>
-                        <tr>
-                            <td>
                                 Restaurant Reservation
                                 <p>Full-stack, CRUD, React, Express, PostGreSQL App</p>
                             </td>
@@ -53,6 +41,18 @@ function Projects() {
                             </td>
                             <td><a href="https://cstcn.onrender.com"  target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
                             <td><a href="https://github.com/AlyssaPadayhag/cstcn"  target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Thinkful Hackathon - Job Search App
+                                <p>Front-end, React, MUI, Bootstrap, Figma</p>
+                            </td>
+                            <td>
+                                Worked with 2 designers and 2 other engineers and mimic a real world project.
+                                Prompt: to create a job search tool or app in 1 week
+                            </td>
+                            <td><a href="https://thinkful-hackathon-team-8.onrender.com/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
+                            <td><a href="https://github.com/japyles/thinkful-hackathon"  target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a> </td>
                         </tr>
                         <tr>
                             <td>
