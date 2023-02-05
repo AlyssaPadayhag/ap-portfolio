@@ -15,7 +15,7 @@ function Home() {
                 <a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank" ><i className="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/AlyssaPadayhag" target="_blank" ><i className="fa-brands fa-github"></i></a>
                 <a href={pdf} target="_blank" className="resume">Resume</a>
-            </p>
+                    </p>
                 </div>
                     
                 </div>
