@@ -11,11 +11,3 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 {@render children()}
-
-
-
-<style>
-	body {
-		background-image: url("src/lib/assets/src/lib/assets/aaron-burden-yzgF-AQt1sQ-unsplash.jpg");
-	}
-</style>
