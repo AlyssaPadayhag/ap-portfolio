@@ -1,6 +1,11 @@
 <script>
     import Home from "./home/Home.svelte";
     import Skills from "./skills/Skills.svelte";
+    import { Linkedin } from "@lucide/svelte";
+    import { Instagram } from "@lucide/svelte";
+    import { Facebook } from "@lucide/svelte";
+    import { Mail } from "@lucide/svelte";
+    import { Phone } from "@lucide/svelte";
 
     export let menu = 1;
 </script>
@@ -26,6 +31,16 @@
         {/if}
     </div>
 </div>
+
+<ul id="menu" class="topnav">
+	<li><a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank"><Linkedin /></a></li>
+	<li><a href="/" target="_blank"><Instagram /></a></li>
+    <li><a href="/" target="_blank"><Facebook /></a></li>
+    <li><Mail /></li>
+    <li>alyssapadayhag@gmail.com</li>
+    <li><Phone /></li>
+    <li>(760)290-5598</li>
+</ul>
 
 <style>
     .container {
@@ -54,11 +69,11 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.topnav li a {
+	.topnav li {
 		float: left;
 		color: rgb(245, 129, 149);
 		text-align: center;
-		padding: 14px 16px;
+		padding: 10px;
 		text-decoration: none;
 		font-size: 17px;
         font-weight: bold;
