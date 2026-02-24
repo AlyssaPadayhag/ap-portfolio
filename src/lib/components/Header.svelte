@@ -1,5 +1,5 @@
 <div class="main share-tech-regular">
-    <h1>Alyssa Padayhag</h1>
+    <h1>Alyssa Virdeth Padayhag</h1>
     <h2>Full Stack Web Developer</h2>
 </div>
 
