@@ -33,7 +33,7 @@
         justify-content: left;
     }
     .portrait {
-        width: 30%;
+        width: 40%;
         height: auto;
         margin-left: 30%;
         border-radius: 25px;
@@ -56,10 +56,11 @@
 	}
 	.topnav li a {
 		float: left;
-		color: red;
+		color: rgb(245, 129, 149);
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
+        font-weight: bold;
 	}
 </style>
