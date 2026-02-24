@@ -13,7 +13,7 @@
         <li>BigCommerce | Magento | Shopify | Amazon</li>
         <br>
         <li>Other:</li>
-        <li>Languages: Advanced Speaking Tagalog</li>
+        <li>Languages: Advanced Tagalog</li>
     </ul>
 </div>
 
