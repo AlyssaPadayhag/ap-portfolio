@@ -1,6 +1,6 @@
 <div class="share-tech-regular">
     <h1>Hi There!</h1>
-    <p>I am a full stack web developer~</p>
+    <p>I am a full stack web developer based in Dayton, OH~</p>
     <br>
     <p>My interest in web dev first started when I was a young girl, in the MySpace era, where we can modify our page
         to make it look how we want.
