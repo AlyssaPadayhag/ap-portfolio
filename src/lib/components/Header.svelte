@@ -5,11 +5,6 @@
 
 
 <style>
-    .share-tech-regular {
-        font-family: "Share Tech", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
 
     .main {
         text-align: center;
@@ -17,9 +12,15 @@
         width: 50%;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 15px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         margin-top: 15px;
         padding-bottom: 15px;
+    }
+    .share-tech-regular {
+        font-family: "Share Tech", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
     h1 {
         font-size: 48px;
