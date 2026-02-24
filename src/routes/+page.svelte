@@ -10,33 +10,31 @@
     export let menu = 1;
 </script>
 
-<ul id="menu" class="topnav">
+<ul id="menu" class="nav">
 	<li><a href="/" on:click|preventDefault={() => (menu = 1)}>01. Home</a></li>
 	<li><a href="/" on:click|preventDefault={() => (menu = 2)}>02. Skills</a></li>
 	<li><a href="/src/lib/assets/alyssa-padayhag-resume.pdf" target="_blank">03. Resume</a></li>
 </ul>
 
-<div class="container">
-    <div class="portrait">
+<span class="container">
         <img src="src/lib/assets/me.png" alt="Alyssa's portrait">
-    </div>
-    <div class="content">
-        {#if menu === 1}
-        <Home />
-        {:else if menu === 2}
-        <Skills />
-        {:else}
-        <h1>
-            Page Not Found
-        </h1>
-        {/if}
-    </div>
-</div>
+        <div class="content">
+            {#if menu === 1}
+            <Home />
+            {:else if menu === 2}
+            <Skills />
+            {:else}
+            <h1>
+                Page Not Found
+            </h1>
+            {/if}
+        </div>
 
-<ul id="menu" class="topnav">
+</span>
+
+<ul id="menu" class="nav footer">
 	<li><a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank"><Linkedin /></a></li>
-	<li><a href="/" target="_blank"><Instagram /></a></li>
-    <li><a href="/" target="_blank"><Facebook /></a></li>
+	<li><a href="https://www.instagram.com/ialyssanica" target="_blank"><Instagram /></a></li>
     <li><Mail /></li>
     <li>alyssapadayhag@gmail.com</li>
     <li><Phone /></li>
@@ -46,31 +44,29 @@
 <style>
     .container {
         display: flex;
-        justify-content: left;
-    }
-    .portrait {
+        justify-content: center;
+        align-items: center;
+		margin-left: auto;
+		margin-right: auto;
         width: 40%;
-        height: auto;
-        margin-left: 30%;
-        border-radius: 25px;
     }
     .content {
-        width: 50%;
-        margin-right: 30%;
         background-color: #a0c4ab;
         text-align: center;
+		margin-left: auto;
+		margin-right: auto;
     }
     ul#menu li {
         display: inline;
     }
-	.topnav {
+	.nav {
 		background-color: white;
 		overflow: hidden;
 		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.topnav li {
+	.nav li {
 		float: left;
 		color: rgb(245, 129, 149);
 		text-align: center;
