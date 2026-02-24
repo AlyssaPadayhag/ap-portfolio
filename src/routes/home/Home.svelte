@@ -17,5 +17,6 @@
         font-family: "Share Tech", sans-serif;
         font-weight: 400;
         font-style: normal;
+        padding: 10px;
     }
 </style>
