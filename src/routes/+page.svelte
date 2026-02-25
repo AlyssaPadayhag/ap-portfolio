@@ -17,7 +17,7 @@
 </ul>
 
 <span class="container">
-        <img src="static/images/me.png" alt="Alyssa's portrait">
+        <img src="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/me.png" alt="Alyssa's portrait">
         <div class="content">
             {#if menu === 1}
             <Home />
