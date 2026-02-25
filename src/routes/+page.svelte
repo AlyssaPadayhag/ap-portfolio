@@ -13,7 +13,7 @@
 <ul id="menu" class="nav">
 	<li><a href="/" on:click|preventDefault={() => (menu = 1)}>01. Home</a></li>
 	<li><a href="/" on:click|preventDefault={() => (menu = 2)}>02. Skills</a></li>
-	<li><a href="/src/lib/assets/alyssa-padayhag-resume.pdf" target="_blank">03. Resume</a></li>
+	<li><a href="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/alyssa-padayhag-resume.pdf" target="_blank">03. Resume</a></li>
 </ul>
 
 <span class="container">
