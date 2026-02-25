@@ -17,7 +17,7 @@
 </ul>
 
 <span class="container">
-        <img src="src/me.png" alt="Alyssa's portrait">
+        <img src="src/public/static/images/me.png" alt="Alyssa's portrait">
         <div class="content">
             {#if menu === 1}
             <Home />
