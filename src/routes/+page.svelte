@@ -3,7 +3,7 @@
     import Skills from "./skills/Skills.svelte";
     import { Linkedin } from "@lucide/svelte";
     import { Instagram } from "@lucide/svelte";
-    import { Facebook } from "@lucide/svelte";
+    import { Github } from "@lucide/svelte";
     import { Mail } from "@lucide/svelte";
     import { Phone } from "@lucide/svelte";
 
@@ -32,14 +32,18 @@
 
 </span>
 
-<ul id="menu" class="nav footer">
-	<li><a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank"><Linkedin /></a></li>
-	<li><a href="https://www.instagram.com/ialyssanica" target="_blank"><Instagram /></a></li>
-    <li><Mail /></li>
-    <li>alyssapadayhag@gmail.com</li>
-    <li><Phone /></li>
-    <li>(760)290-5598</li>
-</ul>
+<span class="footerLinks textSpace">
+	<a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank"><Linkedin /></a>
+	<a href="https://www.instagram.com/ialyssanica" target="_blank"><Instagram /></a>
+	<a href="https://github.com/AlyssaPadayhag" target="_blank"><Github /></a>
+</span>
+<span class="footerLinks">
+    <Mail />
+    alyssapadayhag@gmail.com
+   <Phone />
+    (760)290-5598
+</span>
+
 
 <style>
     .container {
@@ -51,6 +55,26 @@
         width: 40%;
         border: .2rem solid #141b41;
         background-color: #98b9f2;
+
+    }
+    .footerLinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+        width: 50%;
+		background-color: #141b41;
+		color: #98b9f2;
+    }
+    .textSpace a{
+        margin-right: 20px;
+        align-items: center;
+    }
+    img {
+        border-right: .2rem solid #141b41;
+        border-top: .2rem solid #141b41;
+        border-bottom: .2rem solid #141b41;
 
     }
     .content {
@@ -70,7 +94,6 @@
 		margin-right: auto;
 	}
 	.nav li {
-		float: left;
 		color: #98b9f2;
 		text-align: center;
 		padding: 10px;
@@ -78,4 +101,8 @@
 		font-size: 17px;
         font-weight: bold;
 	}
+    li a {
+        text-align: center;
+        align-items: center;
+    }
 </style>
