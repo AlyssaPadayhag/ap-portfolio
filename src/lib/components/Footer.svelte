@@ -6,7 +6,7 @@
 
     .main {
         text-align: center;
-        background: #42a0f8;
+        background: #6f9ceb;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
