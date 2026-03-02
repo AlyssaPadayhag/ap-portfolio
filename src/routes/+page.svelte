@@ -49,12 +49,15 @@
 		margin-left: auto;
 		margin-right: auto;
         width: 40%;
+        border: .2rem solid #141b41;
+        background-color: #98b9f2;
+
     }
     .content {
-        background-color: #a0c4ab;
         text-align: center;
 		margin-left: auto;
 		margin-right: auto;
+        font-size: 24px;
     }
     ul#menu li {
         display: inline;
