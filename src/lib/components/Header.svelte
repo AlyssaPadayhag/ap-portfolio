@@ -8,7 +8,7 @@
 
     .main {
         text-align: center;
-        background: #a0c4ab;
+        background: #42a0f8;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
