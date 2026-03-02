@@ -60,7 +60,7 @@
         display: inline;
     }
 	.nav {
-		background-color: white;
+		background-color: #141b41;
 		overflow: hidden;
 		width: 50%;
 		margin-left: auto;
@@ -68,7 +68,7 @@
 	}
 	.nav li {
 		float: left;
-		color: rgb(245, 129, 149);
+		color: #98b9f2;
 		text-align: center;
 		padding: 10px;
 		text-decoration: none;
