@@ -105,4 +105,7 @@
         text-align: center;
         align-items: center;
     }
+    a:hover {
+        color: red;
+    }
 </style>
