@@ -75,7 +75,7 @@
         border-right: .2rem solid #141b41;
         border-top: .2rem solid #141b41;
         border-bottom: .2rem solid #141b41;
-
+        width: 50%;
     }
     .content {
         text-align: center;
