@@ -8,11 +8,9 @@
         <li>APIs</li>
         <li>Problem-Solving | Collaboration | Communication</li>
         <br>
-        <br>
         <li>Specialties: </li>
         <li>NetSuite | SuiteScripts | Workflows | Admin</li>
         <li>BigCommerce | Magento | Shopify | Amazon</li>
-        <br>
         <br>
         <li>Other:</li>
         <li>Languages: Advanced Tagalog</li>
