@@ -6,22 +6,29 @@
     import { Github } from "@lucide/svelte";
     import { Mail } from "@lucide/svelte";
     import { Phone } from "@lucide/svelte";
+    import { SquareArrowOutUpRight } from "@lucide/svelte";
 
     export let menu = 1;
 </script>
-
+<span class="footerLinks textSpace">
+	<a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank"><Linkedin /></a>
+	<a href="https://www.instagram.com/ialyssanica" target="_blank"><Instagram /></a>
+	<a href="https://github.com/AlyssaPadayhag" target="_blank"><Github /></a>
+</span>
+<span class="footerLinks">
+    <Mail />
+    <span class="custom-padding">alyssapadayhag@gmail.com</span>
+</span>
+<span class="footerLinks textSpace">.......</span>
 <ul id="menu" class="nav">
-	<li><a href="/" on:click|preventDefault={() => (menu = 1)}>01. Home</a></li>
-	<li><a href="/" on:click|preventDefault={() => (menu = 2)}>02. Skills</a></li>
-	<li><a href="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/alyssa-padayhag-resume.pdf" target="_blank">03. Resume</a></li>
+	<li><a href="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/alyssa-padayhag-resume.pdf" target="_blank">Resume</a></li>
 </ul>
 
+<span class="footerLinks textSpace">.......</span>
 <span class="container">
-        <img src="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/me2.png" alt="Alyssa's portrait">
+        <!-- <img src="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/me2.png" alt="Alyssa's portrait"> -->
         <div class="content">
             {#if menu === 1}
-            <Home />
-            {:else if menu === 2}
             <Skills />
             {:else}
             <h1>
@@ -32,17 +39,7 @@
 
 </span>
 
-<span class="footerLinks textSpace">
-	<a href="https://www.linkedin.com/in/alyssa-padayhag/" target="_blank"><Linkedin /></a>
-	<a href="https://www.instagram.com/ialyssanica" target="_blank"><Instagram /></a>
-	<a href="https://github.com/AlyssaPadayhag" target="_blank"><Github /></a>
-</span>
-<span class="footerLinks">
-    <Mail />
-    alyssapadayhag@gmail.com
-   <Phone />
-    (760)290-5598
-</span>
+
 
 
 <style>
@@ -52,9 +49,6 @@
         align-items: center;
 		margin-left: auto;
 		margin-right: auto;
-        width: 40%;
-        border: .2rem solid #141b41;
-        background-color: #98b9f2;
 
     }
     .footerLinks {
@@ -63,18 +57,21 @@
         align-items: center;
 		margin-left: auto;
 		margin-right: auto;
-        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
 		background-color: #141b41;
 		color: #98b9f2;
+    }
+    .custom-padding {
+		padding-left: 10px;
     }
     .textSpace a{
         margin-right: 20px;
         align-items: center;
     }
     img {
-        border-right: .2rem solid #141b41;
-        border-top: .2rem solid #141b41;
-        border-bottom: .2rem solid #141b41;
+        border: .2rem solid #141b41;
+        margin-left: 20px;
     }
     .content {
         text-align: center;
@@ -88,9 +85,9 @@
 	.nav {
 		background-color: #141b41;
 		overflow: hidden;
-		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
+        text-align: center;
 	}
 	.nav li {
 		color: #98b9f2;

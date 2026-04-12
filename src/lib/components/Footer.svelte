@@ -7,11 +7,8 @@
     .main {
         text-align: center;
         background: #6f9ceb;
-        width: 50%;
         margin-left: auto;
         margin-right: auto;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
         margin-bottom: 15px;
         padding-bottom: 15px;
     }

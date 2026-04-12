@@ -9,12 +9,8 @@
     .main {
         text-align: center;
         background: #6f9ceb;
-        width: 50%;
         margin-left: auto;
         margin-right: auto;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        margin-top: 15px;
         padding-bottom: 15px;
     }
     .share-tech-regular {

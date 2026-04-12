@@ -8,12 +8,7 @@
         of how computers and software work.
     </p>
 
-    <ul>
-        <li>14+ years of customer service</li>
-        <li>12+ years in technical support</li>
-        <li>3+ years of professional web development</li>
-        <li>3+ years of SuiteCloud development</li>
-    </ul>
+
 </div>
 
 <style>
