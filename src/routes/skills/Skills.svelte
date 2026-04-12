@@ -17,7 +17,7 @@
         <li>Version Control | Git | BitBucket</li>
         <li>Frameworks | React | Svelte</li>
         <li>Bootstrap | TailwindCSS</li>
-        <li>SQL | MySQL | Postgres | DBeaver</li>
+        <li>SQL | MySQL | PostgreSQL | DBeaver</li>
         <li>APIs</li>
             <br>
             <hr>
