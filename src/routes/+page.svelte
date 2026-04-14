@@ -21,7 +21,7 @@
 </span>
 <span class="footerLinks textSpace">.......</span>
 <ul id="menu" class="nav">
-	<li><a href="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/alyssa-padayhag-resume.pdf" target="_blank">Resume</a></li>
+	<li><a href="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/ap-resume.pdf" target="_blank">Resume</a></li>
 </ul>
 
 <span class="footerLinks textSpace">.......</span>
