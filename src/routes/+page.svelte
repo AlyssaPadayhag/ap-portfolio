@@ -1,13 +1,10 @@
 <script>
-    import Home from "./home/Home.svelte";
     import Skills from "./skills/Skills.svelte";
-    import NetSuite from "./netsuite/netsuite.svelte";
+    import Netsuite from "./netsuite/Netsuite.svelte";
     import { Linkedin } from "@lucide/svelte";
     import { Instagram } from "@lucide/svelte";
     import { Github } from "@lucide/svelte";
     import { Mail } from "@lucide/svelte";
-    import { Phone } from "@lucide/svelte";
-    import { SquareArrowOutUpRight } from "@lucide/svelte";
 
     export let menu = 1;
 </script>
@@ -40,7 +37,7 @@
         {#if menu === 1}
         <Skills />
         {:else if menu === 2}
-        <NetSuite />
+        <Netsuite />
         {:else}
         <h1>
             Page Not Found
