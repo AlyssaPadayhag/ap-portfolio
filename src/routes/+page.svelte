@@ -1,6 +1,6 @@
 <script>
     import Skills from "./skills/Skills.svelte";
-    import Netsuite from "./netsuite/Netsuite.svelte";
+    import Home from "./home/Home.svelte";
     import { Linkedin } from "@lucide/svelte";
     import { Instagram } from "@lucide/svelte";
     import { Github } from "@lucide/svelte";
@@ -37,7 +37,7 @@
         {#if menu === 1}
         <Skills />
         {:else if menu === 2}
-        <Netsuite />
+        <Home />
         {:else}
         <h1>
             Page Not Found
