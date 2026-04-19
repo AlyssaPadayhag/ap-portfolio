@@ -18,11 +18,6 @@
     <span class="custom-padding">alyssapadayhag@gmail.com</span>
 </span>
 
-<span class="footerLinks textSpace">.......</span>
-<ul id="menu" class="nav">
-	<li><a href="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/ap-resume.pdf" target="_blank">Resume</a></li>
-</ul>
-<span class="footerLinks textSpace">.......</span>
 
 <ul id="menu" class="footerLinks textSpace">
 	<li><a href="/skills" on:click|preventDefault={() => (menu = 1)}>01. Skills</a></li>
