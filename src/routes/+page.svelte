@@ -27,6 +27,7 @@
 <ul id="menu" class="footerLinks textSpace">
 	<li><a href="/skills" on:click|preventDefault={() => (menu = 1)}>01. Skills</a></li>
 	<li><a href="/netsuite" on:click|preventDefault={() => (menu = 2)}>02. NetSuite SuiteScript Projects</a></li>
+	<li><a href="https://zledvflm4nm7pn4v.public.blob.vercel-storage.com/ap-resume.pdf" target="_blank">03. Resume</a></li>
 </ul>
 
 
