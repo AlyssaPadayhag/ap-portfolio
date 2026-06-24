@@ -3,9 +3,8 @@
     <hr>
     <br>
     <ul>
-        <li>14+ years of Customer Service</li>
+        <li>10+ years of Customer Service</li>
         <li>9+ years in Technical Support</li>
-        <li>6+ years Office Administration</li>
         <li>3+ years of Professional Full Stack Web Development</li>
         <li>3+ years of SuiteCloud Development</li>
     </ul>
